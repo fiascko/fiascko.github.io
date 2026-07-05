@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Fiascko | Full-Stack Developer & Game Developer</title>
+
+  <meta
+    name="description"
+    content="Fiascko is a full-stack developer and independent game developer creating clean web systems and games with Unity and C#."
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body id="top">
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#top" class="logo" aria-label="Fiascko home">
+        <img
+          src="assets/logo/profile.jpg"
+          alt="Fiascko logo"
+          class="logo-image"
+        />
+        <span>Fiascko</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#games" class="nav-link" data-locale="nav_games">Games</a>
+        <a href="#about" class="nav-link" data-locale="nav_about">About</a>
+        <a href="#skills" class="nav-link" data-locale="nav_skills">Skills</a>
+        <a href="#projects" class="nav-link" data-locale="nav_projects">Projects</a>
+        <a href="#contact" class="nav-link" data-locale="nav_contact">Contact</a>
+
+        <select id="locale-select" class="locale-select" aria-label="Language">
+          <option
+            value="en"
+            data-label-en="English"
+            data-label-fr="Anglais"
+            data-label-it="Inglese"
+            data-label-es="Inglés"
+          >
+            English
+          </option>
+
+          <option
+            value="fr"
+            data-label-en="French"
+            data-label-fr="Français"
+            data-label-it="Francese"
+            data-label-es="Francés"
+          >
+            French
+          </option>
+
+          <option
+            value="es"
+            data-label-en="Spanish"
+            data-label-fr="Espagnol"
+            data-label-it="Spagnolo"
+            data-label-es="Español"
+          >
+            Spanish
+          </option>
+
+          <option
+            value="it"
+            data-label-en="Italian"
+            data-label-fr="Italien"
+            data-label-it="Italiano"
+            data-label-es="Italiano"
+          >
+            Italian
+          </option>
+        </select>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="hero-tagline" data-locale="hero_tagline">
+          Full-stack developer & independent game developer
+        </p>
+
+        <h1 data-locale="hero_title">
+          I build clean web systems and create games with Unity and C#.
+        </h1>
+
+        <p class="hero-description" data-locale="hero_description">
+          I'm Fiascko, a full-stack developer with several years of experience.
+          I enjoy solving complex problems, building scalable systems, and
+          writing clean, maintainable code. Outside of my professional work, I
+          create games available on Steam.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#games" class="btn btn-primary" data-locale="hero_btn_games">
+            View my games
+          </a>
+
+          <a href="#contact" class="btn btn-secondary" data-locale="hero_btn_contact">
+            Contact me
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="games" class="section section-alt">
+      <div class="section-header">
+        <h2 data-locale="games_title">My games</h2>
+
+        <p data-locale="games_subtitle">
+          Games built with passion, creativity, and replayability in mind.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="game-card">
+          <img
+            src="assets/steam-header/rogue-battler-header.jpg"
+            alt="Rogue Battler"
+            class="game-image"
+          />
+
+          <div class="card-content">
+            <h3>Rogue Battler</h3>
+
+            <p data-locale="rogue_battler_description">
+              A retro minimalist auto-battler roguelike where you choose your
+              path, build your stats, and survive as long as possible.
+            </p>
+
+            <a
+              href="https://store.steampowered.com/app/4527990/Rogue_Battler/"
+              class="btn btn-small"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-locale="view_on_steam"
+            >
+              View on Steam
+            </a>
+          </div>
+        </article>
+
+        <article class="game-card">
+          <img
+            src="assets/steam-header/spheric-bombs-header.jpg"
+            alt="Spheric Bombs"
+            class="game-image"
+          />
+
+          <div class="card-content">
+            <h3>Spheric Bombs</h3>
+
+            <p data-locale="spheric_bombs_description">
+              A 3D turn-based tactical puzzle game where every move matters.
+              Guide a bomb through 25 unique levels filled with strategy,
+              reflection, enemies, buffs, and debuffs.
+            </p>
+
+            <a
+              href="https://store.steampowered.com/app/2771650/Spheric_Bombs/"
+              class="btn btn-small"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-locale="view_on_steam"
+            >
+              View on Steam
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-header">
+        <h2 data-locale="about_title">About</h2>
+      </div>
+
+      <div class="simple-content">
+        <p data-locale="about_description">
+          I'm a full-stack web developer and game developer with a background in computer programming and graphic design. Passionate about technology, I enjoy solving complex problems, building scalable systems, and creating clean, maintainable solutions. I have experience working on ERP systems, SaaS applications, and business-oriented web platforms. My experience combines software development and visual creation, which supports both my professional work and my video game projects. I create games with Unity and C#, bringing together technical skills, creativity, and visual design.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="section-header">
+        <h2 data-locale="skills_title">Skills</h2>
+
+        <p data-locale="skills_subtitle">
+          Technologies, languages, and tools I use for web and game development.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3 data-locale="skills_languages_title">Languages & Frameworks</h3>
+
+          <div class="skill-tags">
+            <span>C#</span>
+            <span>.NET</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>jQuery</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Vue.js</span>
+            <span>Java</span>
+            <span>Node.js</span>
+            <span>PHP</span>
+            <span>SQL</span>
+            <span>Python</span>
+            <span>REST APIs</span>
+            <span>Bootstrap</span>
+            <span>Tailwind</span>            
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <h3 data-locale="skills_tools_title">Tools & Software</h3>
+
+          <div class="skill-tags">
+            <span>Unity</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>Visual Studio</span>
+            <span>VS Code</span>
+            <span>JetBrains IDEs</span>
+            <span>Steamworks</span>
+            <span>Aseprite</span>
+            <span>Photoshop</span>
+            <span>Illustrator</span>
+            <span>InDesign</span>
+            <span>Postman</span>
+            <span>Azure DevOps</span>
+          </div>
+        </article>
+
+        <article class="skill-card">
+          <h3 data-locale="skills_experience_title">Experience</h3>
+
+          <div class="skill-tags">
+            <span data-locale="skill_full_stack">Full-stack web development</span>
+            <span data-locale="skill_erp">ERP systems</span>
+            <span data-locale="skill_saas">SaaS applications</span>
+            <span data-locale="skill_business_platforms">Business web platforms</span>
+            <span data-locale="skill_game_dev">Game development</span>
+            <span data-locale="skill_clean_code">Clean and maintainable code</span>
+            <span data-locale="skill_cybersecurity">Cybersecurity</span>
+            <span data-locale="skill_api_development">API development</span>
+            <span data-locale="skill_databases">Databases</span>
+            <span data-locale="skill_debugging">Debugging</span>
+            <span data-locale="skill_optimization">Optimization</span>
+            <span data-locale="skill_code_refactoring">Code refactoring</span>
+            <span data-locale="skill_agile_development">Agile development</span>
+            <span data-locale="skill_qa">QA and testing</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-header">
+        <h2 data-locale="projects_title">Projects</h2>
+
+        <p data-locale="projects_subtitle">
+          This section is a work in progress and will grow over time.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3 data-locale="project_wip_title">Work in progress</h3>
+
+          <p data-locale="project_wip_description">
+            I’m currently preparing this section and will add more projects, tools, prototypes, and experiments over time.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <h3 data-locale="project_future_tools_title">Future tools</h3>
+
+          <p data-locale="project_future_tools_description">
+            I plan to share small development tools and ideas that solve real problems or improve my workflow.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <h3 data-locale="project_future_experiments_title">Future experiments</h3>
+
+          <p data-locale="project_future_experiments_description">
+            I will also use this space to present prototypes, experiments, and concepts related to web and game development.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="section-header">
+        <h2 data-locale="contact_title">Contact</h2>
+
+        <p data-locale="contact_subtitle">
+          You can follow my work, view my games, or connect with me here.
+        </p>
+      </div>
+
+      <div class="social-links">
+        <a
+          href="mailto:help_fiascko@outlook.com"
+          aria-label="Send an email to help_fiascko@outlook.com"
+        >
+          Email
+        </a>
+
+        <a
+          href="https://github.com/fiascko"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/jeremy-ethier"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      © <span id="current-year"></span> Fiascko.
+      <span data-locale="footer_rights">All rights reserved.</span>
+    </p>
+
+    <p class="footer-links">
+      <a href="privacy.html" data-locale="footer_privacy">Privacy Policy</a>
+      <span class="footer-separator">|</span>
+      <a href="legal.html" data-locale="footer_legal">Legal Notice</a>
+    </p>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">
+    ↑
+  </button>
+
+  <script src="js/locales/en.js"></script>
+  <script src="js/locales/fr.js"></script>
+  <script src="js/locales/es.js"></script>
+  <script src="js/locales/it.js"></script>
+  <script src="js/locales.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

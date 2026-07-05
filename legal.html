@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Fiascko | Legal Notice</title>
+
+  <meta
+    name="description"
+    content="Legal notice for the Fiascko website."
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body id="top">
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo" aria-label="Fiascko home">
+        <img
+          src="assets/logo/profile.jpg"
+          alt="Fiascko logo"
+          class="logo-image"
+        />
+        <span>Fiascko</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html#games" data-locale="nav_games">Games</a>
+        <a href="index.html#about" data-locale="nav_about">About</a>
+        <a href="index.html#skills" data-locale="nav_skills">Skills</a>
+        <a href="index.html#projects" data-locale="nav_projects">Projects</a>
+        <a href="index.html#contact" data-locale="nav_contact">Contact</a>
+
+        <select id="locale-select" class="locale-select" aria-label="Language">
+          <option
+            value="en"
+            data-label-en="English"
+            data-label-fr="Anglais"
+            data-label-it="Inglese"
+            data-label-es="Inglés"
+          >
+            English
+          </option>
+
+          <option
+            value="fr"
+            data-label-en="French"
+            data-label-fr="Français"
+            data-label-it="Francese"
+            data-label-es="Francés"
+          >
+            French
+          </option>
+
+          <option
+            value="es"
+            data-label-en="Spanish"
+            data-label-fr="Espagnol"
+            data-label-it="Spagnolo"
+            data-label-es="Español"
+          >
+            Spanish
+          </option>
+
+          <option
+            value="it"
+            data-label-en="Italian"
+            data-label-fr="Italien"
+            data-label-it="Italiano"
+            data-label-es="Italiano"
+          >
+            Italian
+          </option>
+        </select>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="section legal-page">
+      <div class="legal-content">
+        <p class="hero-tagline" data-locale="legal_tagline">Legal Notice</p>
+
+        <h1 data-locale="legal_title">Legal Notice</h1>
+
+        <p data-locale="legal_intro">
+          This page provides general legal information about the Fiascko website.
+        </p>
+
+        <h2 data-locale="legal_owner_title">Website owner</h2>
+
+        <p data-locale="legal_owner_text">
+          This website is owned and operated by Fiascko.
+        </p>
+
+        <h2 data-locale="legal_contact_title">Contact</h2>
+
+        <p>
+          <span data-locale="legal_contact_text">
+            For questions about this website, you can contact me at:
+          </span>
+          <a href="mailto:help_fiascko@outlook.com">help_fiascko@outlook.com</a>
+        </p>
+
+        <h2 data-locale="legal_hosting_title">Hosting</h2>
+
+        <p data-locale="legal_hosting_text">
+          This website is hosted with GitHub Pages.
+        </p>
+
+        <h2 data-locale="legal_content_title">Content and intellectual property</h2>
+
+        <p data-locale="legal_content_text">
+          Unless otherwise stated, the content, visuals, text, and projects presented on this website belong to Fiascko. Rogue Battler and Spheric Bombs are games created by Fiascko.
+        </p>
+
+        <h2 data-locale="legal_third_party_title">Third-party services and trademarks</h2>
+
+        <p data-locale="legal_third_party_text">
+          This website may include links to third-party platforms such as Steam, GitHub, and LinkedIn. Their names, logos, and trademarks belong to their respective owners.
+        </p>
+
+        <h2 data-locale="legal_disclaimer_title">Disclaimer</h2>
+
+        <p data-locale="legal_disclaimer_text">
+          This website is provided for informational and portfolio purposes. While I try to keep the information accurate and up to date, I cannot guarantee that all content is always complete or error-free.
+        </p>
+
+        <div class="hero-actions legal-actions">
+          <a href="index.html" class="btn btn-primary" data-locale="back_home">
+            Back to home
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      © <span id="current-year"></span> Fiascko.
+      <span data-locale="footer_rights">All rights reserved.</span>
+    </p>
+
+    <p class="footer-links">
+      <a href="privacy.html" data-locale="footer_privacy">Privacy Policy</a>
+      <span class="footer-separator">|</span>
+      <a href="legal.html" data-locale="footer_legal">Legal Notice</a>
+    </p>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">
+    ↑
+  </button>
+
+  <script src="js/locales/en.js"></script>
+  <script src="js/locales/fr.js"></script>
+  <script src="js/locales/es.js"></script>
+  <script src="js/locales/it.js"></script>
+  <script src="js/locales.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
