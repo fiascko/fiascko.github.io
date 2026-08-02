@@ -21,6 +21,15 @@ window.siteLocales.en = {
 
   about_title: "About",
   about_description: "I'm a full-stack web developer and game developer with a background in computer programming and graphic design. Passionate about technology, I enjoy solving complex problems, building scalable systems, and creating clean, maintainable solutions. I have experience working on ERP systems, SaaS applications, and business-oriented web platforms. My experience combines software development and visual creation, which supports both my professional work and my video game projects. I create games with Unity and C#, bringing together technical skills, creativity, and visual design.",
+  about_game_released: "Games Released",
+  about_years_experience: "Years of Experience",
+  about_technologies: "Technologies",
+  about_solo: "Solo",
+  about_indie_developer: "Indie Developer",
+  about_hobbies: "Outside of programming, I enjoy playing Magic The Gathering and discovering indie games.",
+  about_indie_games: "Indie Games",
+  about_magic_decks: "My Magic Decks",
+  about_game_picks: "My Game Picks",
 
   skills_title: "Skills",
   skills_subtitle: "Technologies, languages, and tools I use for web and game development.",

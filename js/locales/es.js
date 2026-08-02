@@ -21,6 +21,15 @@ window.siteLocales.es = {
 
   about_title: "Sobre mí",
   about_description: "Soy desarrollador web full-stack y desarrollador de videojuegos, con formación en programación informática y diseño gráfico. Apasionado por la tecnología, me gusta resolver problemas complejos, construir sistemas escalables y crear soluciones limpias y mantenibles. Tengo experiencia trabajando en sistemas ERP, aplicaciones SaaS y plataformas web orientadas a negocios. Mi experiencia combina desarrollo de software y creación visual, lo que apoya tanto mi trabajo profesional como mis proyectos de videojuegos. Creo juegos con Unity y C#, combinando habilidades técnicas, creatividad y diseño visual.",
+  about_game_released: "Juegos publicados",
+  about_years_experience: "Años de experiencia",
+  about_technologies: "Tecnologías",
+  about_solo: "En solitario",
+  about_indie_developer: "Desarrollador independiente",
+  about_hobbies: "Además de programar, me gusta jugar a Magic The Gathering y descubrir juegos independientes.",
+  about_indie_games: "Juegos independientes",
+  about_magic_decks: "Mis mazos de Magic",
+  about_game_picks: "Mis juegos favoritos",
 
   skills_title: "Habilidades",
   skills_subtitle: "Tecnologías, lenguajes y herramientas que uso para el desarrollo web y el desarrollo de videojuegos.",

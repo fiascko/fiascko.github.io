@@ -315,7 +315,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 .section-header,
-.simple-content,
 .cards-grid,
 .social-links {
   max-width: var(--max-width);
@@ -333,8 +332,7 @@ html[data-current-locale="it"] .locale-select {
   font-size: 1.8rem;
 }
 
-.section-header p,
-.simple-content p {
+.section-header p {
   color: var(--color-text-muted);
 }
 
@@ -443,6 +441,112 @@ html[data-current-locale="it"] .locale-select {
   background: var(--color-accent);
   border-color: var(--color-accent);
   color: var(--color-black);
+}
+
+/* About */
+
+.about-layout {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.about-photo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.about-photo img {
+  width: 180px;
+  height: 180px;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: var(--border-radius);
+  border: 1px solid var(--color-border);
+  background: var(--color-bg-card);
+
+  transition:
+    border-color var(--transition),
+    box-shadow var(--transition);
+}
+
+.about-photo img:hover {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 24px var(--color-accent-soft);
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 100%;
+}
+
+.about-content p {
+  color: var(--color-text-muted);
+}
+
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.about-stat {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+
+  padding: 18px 14px;
+  text-align: center;
+
+  transition:
+    transform var(--transition),
+    border-color var(--transition),
+    box-shadow var(--transition);
+}
+
+.about-stat:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 24px var(--color-accent-soft);
+}
+
+.about-stat-number {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: var(--color-white);
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.about-stat-label {
+  display: block;
+
+  color: var(--color-text-muted);
+  font-size: .9rem;
+  line-height: 1.4;
+}
+
+.about-hobbies {
+  color: var(--color-text-muted);
+}
+
+.about-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 /* Skills */
@@ -722,6 +826,16 @@ html[data-current-locale="it"] .locale-select {
     padding: 72px 24px;
   }
 
+  .about-photo img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .about-links {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
   .social-links {
     flex-direction: row;
     flex-wrap: wrap;
@@ -784,6 +898,21 @@ html[data-current-locale="it"] .locale-select {
 
   .card-content {
     padding: 24px;
+  }
+
+  .about-layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 36px;
+    align-items: start;
+  }
+
+  .about-content {
+    text-align: left;
+  }
+
+  .about-stats {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .skills-grid {

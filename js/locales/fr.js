@@ -21,7 +21,16 @@ window.siteLocales.fr = {
 
   about_title: "À propos",
   about_description: "Je suis développeur web full-stack et développeur de jeux vidéo, avec une formation en programmation informatique et en infographie. Passionné par la technologie, j'aime résoudre des problèmes complexes, construire des systèmes évolutifs et créer des solutions propres et maintenables. J'ai de l'expérience dans la création de systèmes ERP, d'applications SaaS et de plateformes web orientées affaires. Mon parcours combine le développement logiciel et la création visuelle, ce qui soutient autant mon travail professionnel que mes projets de jeux vidéo. Je crée des jeux avec Unity et C#, en combinant compétences techniques, créativité et design visuel.",  
-  
+  about_game_released: "Jeux publiés",
+  about_years_experience: "Années d'expérience",
+  about_technologies: "Technologies",
+  about_solo: "Solo",
+  about_indie_developer: "Développeur indépendant",
+  about_hobbies: "En dehors de la programmation, j'aime jouer à Magic The Gathering et découvrir des jeux indépendants.",
+  about_indie_games: "Jeux indépendants",
+  about_magic_decks: "Mes decks Magic",
+  about_game_picks: "Mes jeux préférés",
+
   skills_title: "Compétences",
   skills_subtitle: "Technologies, langages et outils que j’utilise en développement web et en développement de jeux.",
   skills_languages_title: "Langages & frameworks",
