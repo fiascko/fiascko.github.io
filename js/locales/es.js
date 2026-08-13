@@ -98,4 +98,11 @@ window.siteLocales.es = {
   legal_disclaimer_text: "Este sitio web se proporciona con fines informativos y de portafolio. Aunque intento mantener la información precisa y actualizada, no puedo garantizar que todo el contenido esté siempre completo o libre de errores.",
 
   back_home: "Volver al inicio",
+
+  mtg_title: "Mis decks de Magic",
+  mtg_description: "Estos son los decks que juego actualmente.",
+  mtg_sram_description: "Sram me permite robar muchísimas cartas, y ese es exactamente el objetivo de este deck. La idea es jugar muchos Equipos y Auras para seguir robando cartas mientras controlo el campo de batalla. Varias cartas se vuelven muy poderosas cuando robo muchas cartas o controlo varios Equipos y Auras. También quería mantener los costes de maná muy bajos para poder jugar rápidamente y robar tantas cartas como sea posible.",
+  mtg_seton_description: "Seton convierte a todos mis Druidas en mana dorks. Esto permite que el deck genere una enorme cantidad de maná y juegue muchas criaturas rápidamente. La idea es jugar tantos Druidas como sea posible y eventualmente ganar mediante combos que me permiten generar enormes cantidades de maná, hacer mucho daño o robar todo mi deck. Probablemente sea mi deck más poderoso.",
+  mtg_aegar_description: "Aegar es muy poderoso en Pauper Commander porque me permite robar muchas más cartas que la mayoría de los otros comandantes. Como las criaturas en Pauper generalmente tienen poca resistencia, suele ser fácil activar su habilidad eliminándolas con hechizos rojos que hacen daño y robando cartas en el proceso. En partidas 1 contra 1, esta estrategia es especialmente poderosa.",
+  mtg_view_deck: "Ver deck",
 };

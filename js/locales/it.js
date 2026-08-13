@@ -98,4 +98,11 @@ window.siteLocales.it = {
   legal_disclaimer_text: "Questo sito web è fornito a scopo informativo e di portfolio. Anche se cerco di mantenere le informazioni accurate e aggiornate, non posso garantire che tutti i contenuti siano sempre completi o privi di errori.",
 
   back_home: "Torna alla home",
+
+  mtg_title: "I miei deck di Magic",
+  mtg_description: "Questi sono i deck che gioco attualmente.",
+  mtg_sram_description: "Sram mi permette di pescare moltissime carte, ed è esattamente questo l’obiettivo del deck. L’idea è giocare molti Equipaggiamenti e Aure per continuare a pescare carte mentre controllo il campo di battaglia. Diverse carte diventano molto potenti quando pesco molte carte o controllo diversi Equipaggiamenti e Aure. Volevo anche mantenere i costi di mana molto bassi per poter giocare rapidamente e pescare il maggior numero possibile di carte.",
+  mtg_seton_description: "Seton trasforma tutti i miei Druidi in mana dork. Questo permette al deck di generare un’enorme quantità di mana e giocare molte creature rapidamente. L’idea è giocare quanti più Druidi possibile e infine vincere attraverso combo che mi permettono di generare enormi quantità di mana, infliggere molti danni o pescare l’intero deck. Probabilmente è il mio deck più potente.",
+  mtg_aegar_description: "Aegar è molto potente in Pauper Commander perché mi permette di pescare molte più carte rispetto alla maggior parte degli altri comandanti. Poiché le creature in Pauper hanno generalmente poca costituzione, spesso è facile attivare la sua abilità eliminandole con magie rosse che infliggono danni e pescando carte nel processo. Nelle partite 1 contro 1, questa strategia è particolarmente potente.",
+  mtg_view_deck: "Vedi deck",
 };

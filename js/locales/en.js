@@ -98,4 +98,11 @@ window.siteLocales.en = {
   legal_disclaimer_text: "This website is provided for informational and portfolio purposes. While I try to keep the information accurate and up to date, I cannot guarantee that all content is always complete or error-free.",
 
   back_home: "Back to home",
+
+  mtg_title: "My Magic Decks",
+  mtg_description: "Here are the decks I currently play.",
+  mtg_sram_description: "Sram lets me draw a lot of cards, and that’s exactly what this deck is built around. The goal is to play lots of Equipment and Auras to keep drawing cards and control the battlefield. Several cards become very powerful when I draw a lot or control multiple Equipment and Auras. I also wanted to keep the deck’s mana costs very low so I can play quickly and keep drawing as much as possible.",
+  mtg_seton_description: "Seton turns all my Druids into mana dorks. This allows the deck to generate a huge amount of mana and cast a lot of creatures very quickly. The idea is to play as many Druids as possible and eventually win through combos that let me generate massive amounts of mana, deal huge damage, or draw my entire deck. This is probably my most powerful deck.",
+  mtg_aegar_description: "Aegar is very strong in Pauper Commander because he allows me to draw a lot more cards than most other commanders. Since creatures in Pauper generally have low toughness, it’s often easy to trigger his ability by killing them with red damage spells and drawing cards in the process. In 1v1 games, this strategy is especially powerful.",
+  mtg_view_deck: "View Deck",
 };

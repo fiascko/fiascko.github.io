@@ -16,7 +16,6 @@
 }
 
 /* Scroll */
-
 html {
   scroll-behavior: smooth;
 }
@@ -34,7 +33,6 @@ section[id] {
 }
 
 /* Base mobile first */
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -65,7 +63,6 @@ img {
 }
 
 /* Header */
-
 .site-header {
   position: sticky;
   top: 0;
@@ -107,7 +104,6 @@ img {
 }
 
 /* Logo */
-
 .logo {
   display: inline-flex;
   align-items: center;
@@ -139,7 +135,6 @@ img {
 }
 
 /* Navigation */
-
 .nav-links {
   display: flex;
   flex-wrap: wrap;
@@ -262,7 +257,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 /* Hero */
-
 .hero {
   padding: 64px 16px;
   border-bottom: 1px solid var(--color-border);
@@ -303,7 +297,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 /* Sections */
-
 .section {
   padding: 64px 16px;
 }
@@ -337,7 +330,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 /* Cards */
-
 .cards-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -384,7 +376,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 /* Buttons */
-
 .btn {
   display: inline-flex;
   align-items: center;
@@ -444,7 +435,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 /* About */
-
 .about-layout {
   max-width: var(--max-width);
   margin-left: auto;
@@ -550,7 +540,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 /* Skills */
-
 .skills-grid {
   max-width: var(--max-width);
   margin-left: auto;
@@ -601,7 +590,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 /* Projects */
-
 .projects-grid {
   max-width: var(--max-width);
   margin-left: auto;
@@ -641,7 +629,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 /* Social links */
-
 .social-links {
   display: flex;
   flex-direction: column;
@@ -667,7 +654,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 /* Footer */
-
 .site-footer {
   padding: 24px 16px;
   border-top: 1px solid var(--color-border);
@@ -695,7 +681,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 /* Back to top */
-
 .back-to-top {
   position: fixed;
   right: 16px;
@@ -744,7 +729,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 /* Legal / Privacy page */
-
 .legal-page {
   min-height: 70vh;
 }
@@ -795,8 +779,60 @@ html[data-current-locale="it"] .locale-select {
   margin-top: 32px;
 }
 
-/* Tablet */
+/* MTG */
+.mtg-grid {
+  grid-template-columns: 1fr;
+}
 
+.mtg-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.mtg-card-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 24px;
+  background: var(--color-bg-soft);
+}
+
+.mtg-image {
+  width: auto;
+  height: 360px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.mtg-format {
+  display: inline-flex;
+  width: fit-content;
+
+  margin-bottom: 14px;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 5px 10px;
+
+  background: var(--color-bg-soft);
+  color: var(--color-text-muted);
+
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.mtg-card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.mtg-actions {
+  max-width: var(--max-width);
+  margin: 32px auto 0;
+}
+
+/* Tablet */
 @media (min-width: 640px) {
   .navbar {
     padding: 18px 24px;
@@ -847,7 +883,6 @@ html[data-current-locale="it"] .locale-select {
 }
 
 /* Desktop */
-
 @media (min-width: 900px) {
   .navbar {
     flex-direction: row;
@@ -890,6 +925,30 @@ html[data-current-locale="it"] .locale-select {
   .cards-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 24px;
+  }
+
+  /* MTG */
+  .cards-grid.mtg-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mtg-card {
+    display: grid;
+    grid-template-columns: 360px 1fr;
+  }
+
+  .mtg-card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+
+  .mtg-image {
+    width: auto;
+    height: 420px;
+    max-width: 100%;
+    object-fit: contain;
   }
 
   .game-image {

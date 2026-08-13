@@ -98,4 +98,11 @@ window.siteLocales.fr = {
   legal_disclaimer_text: "Ce site web est fourni à des fins d’information et de portfolio. Même si j’essaie de garder les informations exactes et à jour, je ne peux pas garantir que tout le contenu soit toujours complet ou sans erreur.",
 
   back_home: "Retour à l’accueil",
+
+  mtg_title: "Mes decks Magic",
+  mtg_description: "Voici les decks que je joue actuellement.",
+  mtg_sram_description: "Sram me permet de piger énormément de cartes, et c’est exactement le but de ce deck. L’objectif est de jouer beaucoup d’équipements et d’auras pour continuer à piger tout en contrôlant le champ de bataille. Plusieurs cartes deviennent très puissantes lorsque je pige beaucoup ou que je contrôle plusieurs équipements et auras. Je voulais aussi garder un coût en mana très bas afin de pouvoir jouer rapidement et piger le plus possible.",
+  mtg_seton_description: "Seton transforme tous mes druides en mana dorks. Le deck peut ainsi générer énormément de mana et jouer beaucoup de créatures très rapidement. L’idée est de jouer le plus de druides possible et éventuellement gagner grâce à des combos qui me permettent de générer énormément de mana, d’infliger beaucoup de dégâts ou de piger mon deck au complet. C’est probablement mon deck le plus puissant.",
+  mtg_aegar_description: "Aegar est très puissant en Pauper Commander puisqu’il me permet de piger beaucoup plus de cartes que la plupart des autres commandants. Comme les créatures en Pauper ont généralement peu d’endurance, il est souvent facile de déclencher sa capacité en les éliminant avec des sorts rouges qui infligent des dégâts, ce qui me permet de piger des cartes au passage. En 1 contre 1, cette stratégie est particulièrement puissante.",
+  mtg_view_deck: "Voir le deck",
 };
