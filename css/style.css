@@ -832,6 +832,79 @@ html[data-current-locale="it"] .locale-select {
   margin: 32px auto 0;
 }
 
+/* Game Picks */
+.game-picks-page {
+  min-height: 70vh;
+}
+
+.game-picks-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 28px;
+
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.game-pick-card {
+  padding: 20px;
+
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+
+  transition:
+    transform var(--transition),
+    border-color var(--transition),
+    box-shadow var(--transition);
+}
+
+.game-pick-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+  box-shadow: 0 0 24px var(--color-accent-soft);
+}
+
+.game-pick-card h2 {
+  margin-bottom: 16px;
+
+  color: var(--color-white);
+  font-size: 1.5rem;
+}
+
+.game-pick-body {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.game-pick-image {
+  display: block;
+
+  width: 100%;
+  aspect-ratio: 16 / 9;
+
+  object-fit: cover;
+  object-position: center;
+
+  border-radius: 8px;
+  background: var(--color-bg-soft);
+}
+
+.game-pick-content {
+  padding: 0;
+}
+
+.game-pick-content p {
+  color: var(--color-text-muted);
+}
+
+.game-picks-actions {
+  max-width: var(--max-width);
+  margin: 32px auto 0;
+}
+
 /* Tablet */
 @media (min-width: 640px) {
   .navbar {
@@ -981,5 +1054,24 @@ html[data-current-locale="it"] .locale-select {
 
   .skill-card {
     padding: 24px;
+  }
+
+  /* Game Picks */
+  .game-pick-card {
+    padding: 24px;
+  }
+
+  .game-pick-card h2 {
+    margin-bottom: 20px;
+  }
+
+  .game-pick-body {
+    grid-template-columns: minmax(0, 48%) minmax(0, 1fr);
+    align-items: start;
+    gap: 32px;
+  }
+
+  .game-pick-content {
+    padding-top: 4px;
   }
 }
