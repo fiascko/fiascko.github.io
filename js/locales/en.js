@@ -53,12 +53,12 @@ window.siteLocales.en = {
 
   projects_title: "Projects",
   projects_subtitle: "This section is a work in progress and will grow over time.",
-  project_wip_title: "Work in progress",
-  project_wip_description: "I’m currently preparing this section and will add more projects, tools, prototypes, and experiments over time.",
   project_future_tools_title: "Future tools",
   project_future_tools_description: "I plan to share small development tools and ideas that solve real problems or improve my workflow.",
   project_future_experiments_title: "Future experiments",
   project_future_experiments_description: "I will also use this space to present prototypes, experiments, and concepts related to web and game development.",
+  project_zero_fiascko_description: "ZeroFiascko is a lightweight, local-first project management tool I created to build my own project board instead of relying on an existing platform. It is designed around my workflow and my own project needs, with no setup, no account, no database, no cloud, and no external dependencies.",
+  view_on_github: "View on GitHub",
 
   contact_title: "Contact",
   contact_subtitle: "You can follow my work, view my games, or connect with me here.",

@@ -601,6 +601,9 @@ html[data-current-locale="it"] .locale-select {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   min-height: 190px;
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
@@ -626,6 +629,15 @@ html[data-current-locale="it"] .locale-select {
 
 .project-card p {
   color: var(--color-text-muted);
+  margin-bottom: 18px;
+}
+
+.project-tags {
+  margin-bottom: 22px;
+}
+
+.project-card .btn {
+  margin-top: 4px;
 }
 
 /* Social links */

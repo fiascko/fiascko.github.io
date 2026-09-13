@@ -53,12 +53,12 @@ window.siteLocales.es = {
 
   projects_title: "Proyectos",
   projects_subtitle: "Esta sección está en desarrollo y crecerá con el tiempo.",
-  project_wip_title: "En desarrollo",
-  project_wip_description: "Actualmente estoy preparando esta sección y añadiré más proyectos, herramientas, prototipos y experimentos con el tiempo.",
   project_future_tools_title: "Herramientas futuras",
   project_future_tools_description: "Planeo compartir pequeñas herramientas de desarrollo e ideas que resuelvan problemas reales o mejoren mi flujo de trabajo.",
   project_future_experiments_title: "Experimentos futuros",
   project_future_experiments_description: "También usaré este espacio para presentar prototipos, experimentos y conceptos relacionados con el desarrollo web y el desarrollo de juegos.",
+  project_zero_fiascko_description: "ZeroFiascko es una herramienta ligera de gestión de proyectos local-first que creé para tener mi propio board de proyecto en lugar de depender de una plataforma existente. Está diseñada alrededor de mi flujo de trabajo y de mis propias necesidades de proyecto, sin instalación, sin cuenta, sin base de datos, sin nube y sin dependencias externas.",
+  view_on_github: "Ver en GitHub",
 
   contact_title: "Contacto",
   contact_subtitle: "Puedes seguir mi trabajo, ver mis juegos o contactarme aquí.",
