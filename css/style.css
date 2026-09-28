@@ -648,6 +648,10 @@ html[data-current-locale="it"] .locale-select {
 }
 
 .social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 10px 14px;
@@ -663,6 +667,14 @@ html[data-current-locale="it"] .locale-select {
   border-color: var(--color-accent);
   background: var(--color-accent-soft);
   color: var(--color-white);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  max-height: 1.2em;
+  object-fit: contain;
+  flex: 0 0 auto;
 }
 
 /* Footer */
