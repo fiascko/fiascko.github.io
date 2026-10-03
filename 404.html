@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-current-locale="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="robots" content="noindex"/>
+  <meta
+    name="description"
+    content="The page you are looking for could not be found."
+  />
+  <title>Fiascko | Page Not Found</title>
+  <link rel="canonical" href="https://www.fiascko.com/404.html"/>
+  <link rel="icon" type="image/png" href="assets/logo/favicon.png"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body id="top">
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="index.html" class="logo" aria-label="Fiascko home">
+        <img
+          src="assets/logo/profile.jpg"
+          alt="Fiascko logo"
+          class="logo-image"
+        />
+        <span>Fiascko</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html#games" data-locale="nav_games">Games</a>
+        <a href="index.html#about" data-locale="nav_about">About</a>
+        <a href="index.html#skills" data-locale="nav_skills">Skills</a>
+        <a href="index.html#projects" data-locale="nav_projects">Projects</a>
+        <a href="index.html#contact" data-locale="nav_contact">Contact</a>
+        <select id="locale-select" class="locale-select" aria-label="Language">
+          <option
+            value="en"
+            data-label-en="English"
+            data-label-fr="Anglais"
+            data-label-it="Inglese"
+            data-label-es="Inglés"
+          >
+            English
+          </option>
+          <option
+            value="fr"
+            data-label-en="French"
+            data-label-fr="Français"
+            data-label-it="Francese"
+            data-label-es="Francés"
+          >
+            French
+          </option>
+          <option
+            value="es"
+            data-label-en="Spanish"
+            data-label-fr="Espagnol"
+            data-label-it="Spagnolo"
+            data-label-es="Español"
+          >
+            Spanish
+          </option>
+          <option
+            value="it"
+            data-label-en="Italian"
+            data-label-fr="Italien"
+            data-label-it="Italiano"
+            data-label-es="Italiano"
+          >
+            Italian
+          </option>
+        </select>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="section legal-page">
+      <div class="legal-content">
+        <p class="hero-tagline" data-locale="not_found_tagline">
+          Error 404
+        </p>
+        <h1 data-locale="not_found_title">
+          Page not found
+        </h1>
+        <p data-locale="not_found_text">
+            The page you are looking for does not exist. Please check the URL or use the navigation above to return to one of the main sections of the website.
+        </p>
+        <div class="hero-actions legal-actions">
+          <a href="index.html" class="btn btn-primary" data-locale="back_home">
+            Back to home
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>
+      © <span id="current-year"></span> Fiascko.
+      <span data-locale="footer_rights">All rights reserved.</span>
+    </p>
+    <p class="footer-links">
+      <a href="privacy.html" data-locale="footer_privacy">Privacy Policy</a>
+      <span class="footer-separator">|</span>
+      <a href="legal.html" data-locale="footer_legal">Legal Notice</a>
+    </p>
+  </footer>
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">
+    ↑
+  </button>
+  <script src="js/locales/en.js"></script>
+  <script src="js/locales/fr.js"></script>
+  <script src="js/locales/es.js"></script>
+  <script src="js/locales/it.js"></script>
+  <script src="js/locales.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -114,4 +114,8 @@ window.siteLocales.it = {
   game_pick_vampire_crawlers_description: "Vampire Crawlers è stata una vera sorpresa per me. Da grande fan di Vampire Survivors, questa reinterpretazione della formula basata sulle carte è diventata rapidamente qualcosa di speciale. Il gameplay è estremamente soddisfacente, soprattutto quando si riescono a creare combo e sinergie potenti. Ci sono tantissime possibilità con cui sperimentare e alcune situazioni richiedono una buona dose di ragionamento per essere superate. È strategico, gratificante ed estremamente coinvolgente.",
   game_pick_loop_hero_description: "Loop Hero è il gioco che mi ha fatto davvero scoprire gli auto-battler e apprezzare il genere. Le sue meccaniche sono incredibilmente uniche e ben studiate, il che lo rende davvero divertente da giocare e da sperimentare. Bisogna giocarci per capire quanto sia ingegnoso e ben progettato. Ho adorato questo gioco e, se un giorno dovesse uscire Loop Hero 2, sarò sicuramente uno dei primi a prenderlo. Personalmente, gli do un 10/10. È davvero un capolavoro.",
   game_pick_merge_and_blade_description: "Merge And Blade è un mix unico di auto-battler, puzzle e strategia. Mi piace molto il modo in cui il gioco combina la fusione delle unità con combattimenti tattici, creando un ciclo di gameplay semplice da capire, ma molto soddisfacente da padroneggiare. Costruire l’esercito giusto, migliorare le unità e guardare gli scontri svolgersi rende ogni partita divertente e gratificante.",
+
+  not_found_tagline: "Errore 404",
+  not_found_title: "Pagina non trovata",
+  not_found_text: "La pagina che stai cercando non esiste. Controlla l’URL o usa la navigazione qui sopra per tornare a una delle sezioni principali del sito.",
 };
