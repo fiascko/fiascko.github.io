@@ -53,11 +53,8 @@ window.siteLocales.en = {
 
   projects_title: "Projects",
   projects_subtitle: "This section is a work in progress and will grow over time.",
-  project_future_tools_title: "Future tools",
-  project_future_tools_description: "I plan to share small development tools and ideas that solve real problems or improve my workflow.",
-  project_future_experiments_title: "Future experiments",
-  project_future_experiments_description: "I will also use this space to present prototypes, experiments, and concepts related to web and game development.",
   project_zero_fiascko_description: "ZeroFiascko is a lightweight, local-first project management tool I created to build my own project board instead of relying on an existing platform. It is designed around my workflow and my own project needs, with no setup, no account, no database, no cloud, and no external dependencies.",
+  project_reverse_fiascko_description: "ReverseFiascko is a lightweight Unity Editor toolkit I created to help protect my games against reverse engineering. It analyzes project settings, applies recommended protection configurations, and validates builds to identify potential security issues. It is designed to make reverse engineering more difficult while keeping the process simple, with no external dependencies and no runtime overhead.",
   view_on_github: "View on GitHub",
 
   contact_title: "Contact",
