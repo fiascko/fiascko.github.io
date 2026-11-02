@@ -20,7 +20,7 @@ window.siteLocales.es = {
   view_on_steam: "Ver en Steam",
 
   about_title: "Sobre mí",
-  about_description: "Soy desarrollador web full-stack y desarrollador de videojuegos, con formación en programación informática y diseño gráfico. Apasionado por la tecnología, me gusta resolver problemas complejos, construir sistemas escalables y crear soluciones limpias y mantenibles. Tengo experiencia trabajando en sistemas ERP, aplicaciones SaaS y plataformas web orientadas a negocios. Mi experiencia combina desarrollo de software y creación visual, lo que apoya tanto mi trabajo profesional como mis proyectos de videojuegos. Creo juegos con Unity y C#, combinando habilidades técnicas, creatividad y diseño visual.",
+  about_description: "Soy desarrollador web full-stack y desarrollador de videojuegos, con un título técnico en programación web y móvil y un título de formación profesional en diseño gráfico. Apasionado por la tecnología, me gusta resolver problemas complejos, construir sistemas escalables y crear soluciones limpias y mantenibles. Tengo experiencia trabajando en sistemas ERP, aplicaciones SaaS y plataformas web orientadas a negocios. Mi experiencia combina desarrollo de software y creación visual, lo que apoya tanto mi trabajo profesional como mis proyectos de videojuegos. Creo juegos con Unity y C#, combinando habilidades técnicas, creatividad y diseño visual.",
   about_game_released: "Juegos publicados",
   about_years_experience: "Años de experiencia",
   about_technologies: "Tecnologías",

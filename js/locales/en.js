@@ -20,7 +20,7 @@ window.siteLocales.en = {
   view_on_steam: "View on Steam",
 
   about_title: "About",
-  about_description: "I'm a full-stack web developer and game developer with a background in computer programming and graphic design. Passionate about technology, I enjoy solving complex problems, building scalable systems, and creating clean, maintainable solutions. I have experience working on ERP systems, SaaS applications, and business-oriented web platforms. My experience combines software development and visual creation, which supports both my professional work and my video game projects. I create games with Unity and C#, bringing together technical skills, creativity, and visual design.",
+  about_description: "I'm a full-stack web developer and game developer with a technical diploma in web and mobile programming and a professional diploma in graphic design. Passionate about technology, I enjoy solving complex problems, building scalable systems, and creating clean, maintainable solutions. I have experience working on ERP systems, SaaS applications, and business-oriented web platforms. My experience combines software development and visual creation, which supports both my professional work and my video game projects. I create games with Unity and C#, bringing together technical skills, creativity, and visual design.",
   about_game_released: "Games Released",
   about_years_experience: "Years of Experience",
   about_technologies: "Technologies",

@@ -20,7 +20,7 @@ window.siteLocales.fr = {
   view_on_steam: "Voir sur Steam",
 
   about_title: "À propos",
-  about_description: "Je suis développeur web full-stack et développeur de jeux vidéo, avec une formation en programmation informatique et en infographie. Passionné par la technologie, j'aime résoudre des problèmes complexes, construire des systèmes évolutifs et créer des solutions propres et maintenables. J'ai de l'expérience dans la création de systèmes ERP, d'applications SaaS et de plateformes web orientées affaires. Mon parcours combine le développement logiciel et la création visuelle, ce qui soutient autant mon travail professionnel que mes projets de jeux vidéo. Je crée des jeux avec Unity et C#, en combinant compétences techniques, créativité et design visuel.",  
+  about_description: "Je suis développeur web full-stack et développeur de jeux vidéo, avec un diplôme technique en programmation web et mobile et un diplôme professionnel en infographie. Passionné par la technologie, j'aime résoudre des problèmes complexes, construire des systèmes évolutifs et créer des solutions propres et maintenables. J'ai de l'expérience dans la création de systèmes ERP, d'applications SaaS et de plateformes web orientées affaires. Mon parcours combine le développement logiciel et la création visuelle, ce qui soutient autant mon travail professionnel que mes projets de jeux vidéo. Je crée des jeux avec Unity et C#, en combinant compétences techniques, créativité et design visuel.",
   about_game_released: "Jeux publiés",
   about_years_experience: "Années d'expérience",
   about_technologies: "Technologies",
