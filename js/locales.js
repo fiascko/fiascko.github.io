@@ -1,3 +1,5 @@
+/* Copyright (c) Fiascko. All rights reserved. | Project: fiascko.com | File: locales.js */
+
 document.addEventListener("DOMContentLoaded", () => {
   const DEFAULT_LOCALE = "en";
   const LOCALE_STORAGE_KEY = "locale";

@@ -1,3 +1,5 @@
+/* Copyright (c) Fiascko. All rights reserved. | Project: fiascko.com | File: main.js */
+
 document.addEventListener("DOMContentLoaded", () => {
   const currentYear = document.getElementById("current-year");
 

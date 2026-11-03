@@ -1,3 +1,5 @@
+/* Copyright (c) Fiascko. All rights reserved. | Project: fiascko.com | File: it.js */
+
 window.siteLocales = window.siteLocales || {};
 
 window.siteLocales.it = {
