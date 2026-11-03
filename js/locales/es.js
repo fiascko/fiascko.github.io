@@ -68,6 +68,7 @@ window.siteLocales.es = {
   skill_optimization: "Optimización",
   skill_code_refactoring: "Refactorización de código",
   skill_agile_development: "Desarrollo ágil",
+  skill_code_review: "Revisión de código",
 
   projects_title: "Proyectos",
   projects_subtitle: "Esta sección está en desarrollo y crecerá con el tiempo.",

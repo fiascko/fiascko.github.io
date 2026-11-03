@@ -68,6 +68,7 @@ window.siteLocales.en = {
   skill_optimization: "Optimization",
   skill_code_refactoring: "Code refactoring",
   skill_agile_development: "Agile development",
+  skill_code_review: "Code review",
 
   projects_title: "Projects",
   projects_subtitle: "This section is a work in progress and will grow over time.",
