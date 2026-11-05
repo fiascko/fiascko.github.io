@@ -5,9 +5,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const LOCALE_STORAGE_KEY = "locale";
 
   const localeSelect = document.getElementById("locale-select");
+  const localeSelectWrapper = localeSelect?.closest(".locale-select-wrapper");
+  const navLinks = localeSelect?.closest(".nav-links");
 
-  if (!localeSelect) {
-    console.error("Element #locale-select not found.");
+  if (!localeSelect || !localeSelectWrapper || !navLinks) {
+    console.error("Locale selector or navigation not found.");
     return;
   }
 
@@ -29,6 +31,19 @@ document.addEventListener("DOMContentLoaded", () => {
         option.textContent = label;
       }
     });
+  }
+
+  function updateLocaleSelectDisplay() {
+    localeSelectWrapper.classList.remove("is-compact");
+
+    const items = Array.from(navLinks.children);
+    const gap = parseFloat(getComputedStyle(navLinks).columnGap) || 0;
+
+    const requiredWidth = items.reduce((width, item) => {
+      return width + Math.max(item.scrollWidth, item.getBoundingClientRect().width);
+    }, gap * Math.max(0, items.length - 1));
+
+    localeSelectWrapper.classList.toggle("is-compact", requiredWidth > navLinks.clientWidth + 1);
   }
 
   function updatePageText(locale) {
@@ -58,10 +73,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     localeSelect.value = locale;
+    localeSelectWrapper.dataset.shortLabel = locale.toUpperCase();
     document.documentElement.setAttribute("data-current-locale", locale);
 
     updateLocaleSelectLabels(locale);
     updatePageText(locale);
+    updateLocaleSelectDisplay();
 
     localStorage.setItem(LOCALE_STORAGE_KEY, locale);
   }
@@ -70,6 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setLocale(event.target.value);
   });
 
-  const savedLocale = getSavedLocale();
-  setLocale(savedLocale);
+  window.addEventListener("resize", updateLocaleSelectDisplay);
+
+  setLocale(getSavedLocale());
 });

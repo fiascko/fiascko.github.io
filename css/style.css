@@ -227,13 +227,14 @@ img {
 
   .nav-links a {
     font-size: clamp(0.6rem, 2.35vw, 0.85rem);
-    flex-shrink: 1;
   }
 
-  .locale-select {
-    flex: 0 0 auto;
+  .locale-select-wrapper {
     margin-left: auto;
-    max-width: none;
+  }
+
+  .locale-select-wrapper.is-compact {
+    margin-right: 6px;
   }
 }
 
@@ -261,6 +262,57 @@ html[data-current-locale="es"] .locale-select {
 
 html[data-current-locale="it"] .locale-select {
   width: 92px;
+}
+
+.locale-select-wrapper {
+  position: relative;
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+html[data-current-locale] .locale-select-wrapper.is-compact .locale-select {
+  width: 50px;
+  min-width: 0;
+  color: transparent;
+}
+
+.locale-select-wrapper.is-compact::after {
+  content: attr(data-short-label);
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: var(--color-text);
+  font-size: 0.8rem;
+  font-weight: 700;
+  pointer-events: none;
+}
+
+html[lang="it"] .locale-select-wrapper.is-compact::after {
+  left: 13px;
+}
+
+.locale-select-wrapper.is-compact .locale-select option {
+  color: var(--color-text);
+}
+
+@media (max-width: 340px) {
+  .locale-select-wrapper.is-compact .locale-select {
+    padding: 6px 4px;
+  }
+
+  html[lang="es"] .nav-links {
+    gap: 6px;
+  }
+
+  html[lang="es"] .navbar {
+    padding-left: 8px;
+    padding-right: 6px;
+  }
+
+  html[lang="es"] .nav-links a {
+    font-size: 0.64rem;
+  }
 }
 
 /* Hero */
@@ -578,7 +630,6 @@ html[data-current-locale="it"] .locale-select {
   color: var(--color-white);
   font-size: 1.05rem;
 }
-
 
 .experience-items {
   display: flex;
