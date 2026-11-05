@@ -76,6 +76,7 @@ window.siteLocales.fr = {
   projects_subtitle: "Cette section est en cours de développement et évoluera avec le temps.",
   project_zero_fiascko_description: "ZeroFiascko est un outil léger de gestion de projet local-first que j’ai créé pour avoir mon propre board de projet au lieu de dépendre d’une plateforme existante. Il est conçu autour de mon workflow et de mes propres besoins de projet, sans installation, sans compte, sans base de données, sans cloud et sans dépendances externes.",
   project_reverse_fiascko_description: "ReverseFiascko est un outil léger pour l’éditeur Unity que j’ai créé afin de mieux protéger mes jeux contre la rétro-ingénierie. Il analyse les paramètres du projet, applique les configurations de protection recommandées et valide les builds pour détecter d’éventuels problèmes de sécurité. Il est conçu pour rendre la rétro-ingénierie plus difficile tout en simplifiant le processus, sans dépendances externes ni surcharge de performance à l’exécution.",
+  project_clean_fiascko_description: "CleanFiascko est une collection de compétences personnelles pour agents IA que j’ai créée afin d’intégrer mes standards de programmation, ma philosophie de développement et mes méthodes de travail préférées au développement assisté par l’IA. Elle met l’accent sur un code propre, lisible, maintenable et performant, tout en privilégiant des implémentations simples, en limitant les dépendances et en évitant toute complexité inutile.",
   view_on_github: "Voir sur GitHub",
 
   contact_title: "Contact",

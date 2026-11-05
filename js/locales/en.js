@@ -76,6 +76,7 @@ window.siteLocales.en = {
   projects_subtitle: "This section is a work in progress and will grow over time.",
   project_zero_fiascko_description: "ZeroFiascko is a lightweight, local-first project management tool I created to build my own project board instead of relying on an existing platform. It is designed around my workflow and my own project needs, with no setup, no account, no database, no cloud, and no external dependencies.",
   project_reverse_fiascko_description: "ReverseFiascko is a lightweight Unity Editor toolkit I created to help protect my games against reverse engineering. It analyzes project settings, applies recommended protection configurations, and validates builds to identify potential security issues. It is designed to make reverse engineering more difficult while keeping the process simple, with no external dependencies and no runtime overhead.",
+  project_clean_fiascko_description: "CleanFiascko is a collection of personal AI agent skills I created to bring my coding standards, development philosophy, and preferred workflows into AI-assisted development. It focuses on writing clean, readable, maintainable, and efficient code while keeping implementations simple, minimizing dependencies, and avoiding unnecessary complexity.",
   view_on_github: "View on GitHub",
 
   contact_title: "Contact",
