@@ -149,7 +149,6 @@ img {
   gap: 10px;
   row-gap: 12px;
   width: 100%;
-  overflow: visible;
 }
 
 .nav-links a {
@@ -226,7 +225,7 @@ img {
   }
 
   .nav-links a {
-    font-size: clamp(0.6rem, 2.35vw, 0.85rem);
+    font-size: clamp(0.7rem, 2.5vw, 0.875rem);
   }
 
   .locale-select-wrapper {
@@ -1286,10 +1285,6 @@ html[lang="it"] .locale-select-wrapper.is-compact::after {
   .nav-links a {
     font-size: 0.95rem;
     flex-shrink: 0;
-  }
-
-  .locale-select {
-    flex-basis: auto;
   }
 
   .hero {
